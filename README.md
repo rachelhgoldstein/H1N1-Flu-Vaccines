@@ -42,23 +42,27 @@ My final model had an AUC of 0.83, indicating it's pretty effective at predictin
 ![final_model_ROC_curve](./Images/final_model_ROC_curve.png)
 
 ## Recommendations: 
-![vacc_by_doc_rec](./Images/vacc_by_doc_rec_full.png)
-
 My first finding was that when doctors did not recommend vaccination to their patients, the count of vaccinations was extremely low. However, in cases where the doctor encouraged the vaccination, there were more people vaccinated than not!
 
 I would recommend having more doctors encourage vaccination to all patients who are suitable for it. 
 
+![vacc_by_doc_rec](./Images/vacc_by_doc_rec_full.png)
 
+My second finding was that higher levels of knowledge about the H1N1 flu resulted in higher vaccination counts. When combined with education, college graduates who had the highest level of knowledge about the virus had the highest vaccination counts than any other grouping. The lower the level of education, and the less knowlege about the virus, resulted in lower counts of vaccination. 
 
-4. Spread easy to understand information about both the virus and vaccine: the more knowledge people had about the virus, the higher the vaccination counts. When combined with education, college graduates who had the most H1N1 knowlegde had the highest vaccination counts. Spreading easily understandable information, especially to those with lower education levels, could increase vaccination.
+I would recommend spread easy to understand information about both the virus and the vaccine, especially to those with lower education levels. 
 
-5. Find ways to connect with and encourage vaccinations in males aged 18-44: those who identify as male aged 18-44 had the lowest counts of vaccination among any other sex/age combination. Females in general had higher counts of vaccination, with those 65+ having the highest. We need to first figure out why this demographic has such low vaccination counts, and then we can find ways to encourage vaccination.
+![vacc_by_education_h1n1_knowledge](./Images/vacc_by_education_h1n1_knowledge.png)
+
+My final founding was that males aged 18-44 had the lowest vaccination counts than any other age/sex combination. Females generally had higher vaccination counts, with females aged 65+ having the most. 
+
+I would recommend first trying to understand why males aged 18-44 have such low vaccination counts, be it misconceptions about the virus or vaccine, lack of convenience, or some other factor. Then I would recommend finding ways to target this specific demographic to encourage vaccination. 
+
+![vacc_by_age_group_sex](./Images/vacc_by_age_group_sex.png)
 
 Implications for the stakeholder include increasing vaccination counts, which is a key part of achieving herd immunity. With any contagious (or otherwise) disease, herd immunity is a great goal as it means a large enough percent of the population has antibodies to the vaccine, which helps limit the spread of disease.
 
 ## Next Steps
-Next steps include:
-
 1. Collaborating with healthcare providers: we can find ways to make information about both the virus and vaccine more readily available to the public.
 
 2. Research marketing strategies: I'd like to find efficient and effective ways to target specific demographics and encourage vaccination. The more knowledge and awareness out there, the better.
@@ -66,5 +70,4 @@ Next steps include:
 3. Collect more data: this survey contained nearly 27,000 participants, but with more data, we could make more accurate predictions. I would also like to explore the idea of completing a new survey, since this was from 2009. I'm curious to see how the COVID-19 pandemic has changed this data.
 
 ## Conclusion
-Conclusion and Recommendations
-This project aimed to build a model that can predict whether someone has recieved the H1N1 flu vaccine. The goal in mind was to provide guidance to a public health official (such as the leadership team of the CDC) to help with any future health outbreaks or concerns. The dataset contained nearly 27,000 survey responses (the survey having been conducted as a random phone survey). I started with exploring the relationships between the variables, picked H1N1 as the target, and built several models. I chose to prioritize precision over recall, which aimed to minimize false positives, as I felt that had bigger health consequences. My final model was a simple logistic regression that had an accuracy of 84%, precision of 71%, recall of 43%, and F1 score of 53%.
+This project aimed to build a model that can predict whether someone has recieved the H1N1 flu vaccine. The goal in mind was to provide guidance to a public health official (such as the leadership team of the CDC) to help with any future health outbreaks or concerns. The dataset contained nearly 27,000 survey responses (the survey having been conducted as a random phone survey). I started with exploring the relationships between the variables, picked H1N1 as the target, and built several models. I chose to prioritize precision over recall, which aimed to minimize false positives, as I felt that had bigger health consequences. My final model was a simple logistic regression that had an accuracy of 84%, precision of 71%, recall of 42%, and F1 score of 53%.

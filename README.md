@@ -73,7 +73,7 @@ Implications for the stakeholder include increasing vaccination counts, which is
 This project aimed to build a model that can predict whether someone has recieved the H1N1 flu vaccine. The goal in mind was to provide guidance to a public health official (such as the leadership team of the CDC) to help with any future health outbreaks or concerns. The dataset contained nearly 27,000 survey responses (the survey having been conducted as a random phone survey). I started with exploring the relationships between the variables, picked H1N1 as the target, and built several models. I chose to prioritize precision over recall, which aimed to minimize false positives, as I felt that had bigger health consequences. My final model was a simple logistic regression that had an accuracy of 84%, precision of 71%, recall of 42%, and F1 score of 53%.
 
 ## For More Information
-See the full analysis in the [Jupyter Notebook](./Final_Notebook.ipynb) or review this [presentation](./H1N1_Vaccination_Analysis_Presentation.pdf).
+Please find the general EDA in the  [General EDA](./code/General_EDA.ipynb) notebook, the full analysis in the [Final Jupyter Notebook](./Final_Notebook.ipynb), and the [presentation](./H1N1_Vaccination_Analysis_Presentation.pdf) here.
 
 For additional info, please contact Rachel Goldstein at [rachelhgoldstein1@gmail.com](mailto:rachelhgoldstein1@gmail.com), or find me on [Linkedin](https://www.linkedin.com/in/rachel-goldstein-512540158/). 
 

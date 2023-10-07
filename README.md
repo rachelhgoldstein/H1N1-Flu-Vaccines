@@ -1,4 +1,4 @@
-# H1N1-and-Seasonal-Flu-Vaccines
+# H1N1-Flu-Vaccines
 ![H1N1_Swine_flu_vaccination](./Images/H1N1_Swine_flu_vaccination.jpg)
 
 ## Overview:
